@@ -7,3 +7,5 @@ spec/
 *.vsix
 *.log
 *.map
+/.vs
+/package-lock.json

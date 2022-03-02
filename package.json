@@ -1,6 +1,7 @@
 {
+  "id": "regex-match-replace",
   "name": "regex-match-replace-vsts-task",
-  "version": "0.0.0",
+  "version": "1.4.0",
   "description": "Visual Studio Team Services Task to replace file content with a regex match",
   "main": "index.js",
   "scripts": {
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kasunkv/regex-match-replace-vsts-task.git"
+    "url": "git+https://github.com/simongymer/VSTS.RegexMatchAndReplace.git"
   },
   "keywords": [
     "regex",
@@ -29,15 +30,15 @@
     "replace",
     "matching"
   ],
-  "author": "Kasun Kodagoda",
+  "author": "simon-gymer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kasunkv/regex-match-replace-vsts-task/issues"
+    "url": "https://github.com/simongymer/VSTS.RegexMatchAndReplace/issues"
   },
-  "homepage": "https://github.com/kasunkv/regex-match-replace-vsts-task#readme",
+  "homepage": "https://github.com/simongymer/VSTS.RegexMatchAndReplace#readme",
   "dependencies": {
     "@sentry/node": "^6.15.0",
-    "vsts-task-lib": "^2.1.0"
+    "azure-pipelines-task-lib": "^3.2.0"
   },
   "devDependencies": {
     "@types/node": "^10.17.0",

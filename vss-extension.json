@@ -2,24 +2,21 @@
     "manifestVersion": 1,
     "id": "regex-match-replace",
     "name": "RegEx Match & Replace",
-    "publisher": "kasunkodagoda",
-    "version": "0.0.0",
+    "publisher": "simon-gymer",
+    "version": "1.4.0",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Visual Studio Team Services Task to replace file content with a regex match",
+    "description": "Azure Devops Task to replace file content with a regex match",
     "categories": [
-        "Build and release"
+        "Azure Pipelines"
     ],
     "screenshots": [
         {
             "path": "screenshots/screenshot-0.png"
         }
-    ],
-    "galleryFlags": [
-        "Public"
     ],
     "tags": [ "regex", "regular-expressions", "pattern-match", "match", "find-and-replace", "replace", "matching" ],
     "icons": {
@@ -38,25 +35,25 @@
     },
     "links": {
         "getstarted": {
-            "uri": "https://github.com/kasunkv/regex-match-replace-vsts-task/wiki"
+            "uri": "https://github.com/simongymer/VSTS.RegexMatchAndReplace/wiki"
         },
         "support": {
-            "uri": "https://github.com/kasunkv/regex-match-replace-vsts-task/issues"
+            "uri": "https://github.com/simongymer/VSTS.RegexMatchAndReplace/issues"
         },
         "repository": {
-            "uri": "https://github.com/kasunkv/regex-match-replace-vsts-task"
+            "uri": "https://github.com/simongymer/VSTS.RegexMatchAndReplace"
         },
         "issues": {
-            "uri": "https://github.com/kasunkv/regex-match-replace-vsts-task/issues"
+            "uri": "https://github.com/simongymer/VSTS.RegexMatchAndReplace/issues"
         }
     },
     "branding": {
-        "color": "rgb(74, 74, 74)",
-        "theme": "dark"
+        "color": "rgb(211, 224, 235)",
+        "theme": "light"
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/kasunkv/regex-match-replace-vsts-task"
+        "uri": "https://github.com/simongymer/VSTS.RegexMatchAndReplace"
     },
     "files": [
         {

@@ -1,10 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/AArnott/vso-agent-tasks/9b41d803a/tasks.schema.json",
-    "id": "86e3367d-c1d2-40a3-ab67-abd1924ce49f",
+    "id": "7e0c4e50-5566-41c1-afab-c583c30c5628",
     "name": "RegExMatchReplace",
     "friendlyName": "RegEx Match & Replace",
     "description": "Visual Studio Team Services Task to replace file content with a regex match",
-    "helpMarkDown": "[More Information](https://github.com/kasunkv/regex-match-replace-vsts-task)",
+    "helpMarkDown": "[More Information](https://github.com/simongymer/VSTS.RegexMatchAndReplace)",
     "category": "Utility",
     "visibility": [
         "Build",
@@ -14,10 +14,10 @@
         "Agent",
         "MachineGroup"
     ],
-    "author": "Kasun Kodagoda",
+    "author": "simon-gymer",
     "version": {
         "Major": 1,
-        "Minor": 0,
+        "Minor": 4,
         "Patch": 0
     },
     "demands": [],

@@ -1,5 +1,5 @@
 
-import * as Task from 'vsts-task-lib';
+import * as Task from 'azure-pipelines-task-lib';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as sentry from '@sentry/node';
@@ -16,9 +16,9 @@ async function run(): Promise<void> {
         release: 'TASK_RELEASE_VERSION'
     });
 
-    const filePath: string = Task.getPathInput('PathToFile', true);
-    const regExString: string = Task.getInput('RegEx', true);
-    const valueToReplace: string = Task.getInput('ValueToReplace', true);
+    const filePath: string = <string>Task.getPathInput('PathToFile', true);
+    const regExString: string = <string>Task.getInput('RegEx', true);
+    const valueToReplace: string = <string>Task.getInput('ValueToReplace', true);
     const global: boolean = Task.getBoolInput('Global');
     const ignoreCase: boolean = Task.getBoolInput('IgnoreCase');
     const multiLine: boolean = Task.getBoolInput('MultiLine');
